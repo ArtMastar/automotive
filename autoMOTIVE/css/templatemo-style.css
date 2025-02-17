@@ -503,9 +503,9 @@ body {
 
 .stroked-button a:hover {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
-  border-color: #f23b3b;
+  border-color: rgb(233, 134, 4);
 
     -webkit-transition: all 0.3s ease 0s;
 
@@ -528,8 +528,6 @@ body {
   text-align: center;
 
 }
-
-
 
 .arrow i {
 
@@ -557,17 +555,15 @@ body {
 
 .arrow i:hover {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
-  border-color: #f23b3b;
+  border-color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.3s ease 0s;
 
           transition: all 0.3s ease 0s;
 
 }
-
-
 
 .arrow:active .btn {
 
@@ -607,7 +603,7 @@ body {
 
   color: #fff;
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
   cursor: pointer;
 
@@ -627,7 +623,7 @@ body {
 
   font-size: 26px;
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   border: 1px solid #e7e7e7;
 
@@ -691,7 +687,7 @@ body {
 
   font-size: 22px;
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   width: 30px;
 
@@ -703,7 +699,7 @@ body {
 
   text-align: center;
 
-  border: 1px solid #f23b3b;
+  border: 1px solid rgb(233, 134, 4);
 
   border-radius: 50%;
 
@@ -713,9 +709,9 @@ body {
 
 .service-arrow i:hover {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
-  border-color: #f23b3b;
+  border-color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.3s ease 0s;
 
@@ -749,7 +745,7 @@ body {
 
   background-color: #fff;
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid rgb(233, 134, 4);
 
 }
 
@@ -821,7 +817,7 @@ body {
 
   color: #fff!important;
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
 }
 
@@ -841,7 +837,7 @@ body {
 
   background-color: #fff;
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid rgb(233, 134, 4);
 
 }
 
@@ -913,7 +909,7 @@ body {
 
   color: #fff!important;
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
 }
 
@@ -987,9 +983,9 @@ body {
 
 .fourth-arrow i:hover {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
-  border-color: #f23b3b;
+  border-color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.3s ease 0s;
 
@@ -1035,7 +1031,7 @@ body {
 
   padding-bottom: 15px;
 
-  border-bottom: 1px solid #f23b3b;
+  border-bottom: 1px solid rgb(233, 134, 4);
 
 
 
@@ -1113,7 +1109,7 @@ body {
 
   color: #fff;
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
   border: 0px;
 
@@ -1135,7 +1131,7 @@ body {
 
 footer {
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
   text-align: center;
 
@@ -1157,7 +1153,7 @@ footer {
 
 .social-icons a {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   margin: 0 5px;
 
@@ -1181,7 +1177,7 @@ footer {
 
 .social-icons a:hover {
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
   color: #fff;
 
@@ -1213,7 +1209,7 @@ footer {
 
 .copyright-text a {
 
-  color: #f9c9c9!important;
+  color: rgb(233, 134, 4)!important;
 
   text-decoration: none!important;
 
@@ -1235,7 +1231,7 @@ footer {
 
   font-size: 22px;
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   width: 30px;
 
@@ -1291,7 +1287,7 @@ footer {
 
   width: 100%;
 
-  border-bottom: 3px solid #f23b3b;
+  border-bottom: 3px solid rgb(233, 134, 4);
 
   background-repeat: no-repeat;
 
@@ -1321,7 +1317,7 @@ footer {
 
   text-transform: uppercase;
 
-  border-bottom: 1px solid #f23b3b;
+  border-bottom: 1px solid rgb(233, 134, 4);
 
   padding-bottom: 15px;
 
@@ -1353,7 +1349,7 @@ footer {
 
   overflow: hidden;
 
-  border-bottom: 3px solid #f23b3b;
+  border-bottom: 3px solid rgb(233, 134, 4);
 
 }
 
@@ -1401,7 +1397,7 @@ footer {
 
   font-weight: 600;
 
-  border-left: 3px solid #f23b3b;
+  border-left: 3px solid rgb(233, 134, 4);
 
   margin-left: 30px;
 
@@ -1477,7 +1473,7 @@ footer {
 
 .widget-social a:hover {
 
-  background-color: #f23b3b;
+  background-color: rgb(233, 134, 4);
 
   color: #fff;
 
@@ -1516,7 +1512,7 @@ footer {
 
 .posts a:hover {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1604,7 +1600,7 @@ footer {
 
 .third-widget li a:hover p {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1616,7 +1612,7 @@ footer {
 
 .third-widget li a:hover span {
 
-  color: #f23b3b;
+  color: rgb(233, 134, 4);
 
   -webkit-transition: all 0.5s ease 0s;
 
@@ -1840,15 +1836,15 @@ footer {
 
   .navbar-inverse .navbar-toggle {
 
-    border-color: #f23b3b!important;
+    border-color: rgb(233, 134, 4)!important;
 
-    background-color: #f23b3b;
+    background-color: rgb(233, 134, 4);
 
   }
 
   .navbar-inverse .navbar-toggle:hover {
 
-    background-color: #f23b3b!important;
+    background-color: #rgb(233, 134, 4)!important;
 
   }
 

@@ -86,7 +86,7 @@ p {
 
 body {
 
-  background-color: #eee!important;
+  background-color: #ffffff!important;
 
   overflow-x: hidden;
 
@@ -164,7 +164,7 @@ body {
 
 .bg__first {
 
-  background-color: #eee;
+  background-color: #4e2b02;
 
 }
 
@@ -180,7 +180,7 @@ body {
 
 .bg__second {
 
-  border-bottom: 3px solid rgb(242, 208, 59);
+  border-bottom: 3px solid rgb(214, 147, 2);
 
   height: 45vh;
 
@@ -254,9 +254,7 @@ body {
 
   font-weight: 700;
 
-  color: #996900!important;
-
-  text-transform: uppercase;
+  color: #4e2b02!important;
 
   text-shadow: none!important;
 
@@ -276,7 +274,7 @@ body {
 
   background-image: none;
 
-  background-color: #f1c15a!important;
+  background-color: #f8f6f0!important;
 
   border-radius: 0!important;
 
@@ -292,7 +290,7 @@ body {
 
   font-size: 15px;
 
-  color: #ffffff!important;
+  color: #4e2b02!important;
 
   text-shadow: none!important;
 
@@ -303,7 +301,7 @@ body {
 
 .nav a:hover {
 
-  color: #8f6201!important;
+  color: #e69e03!important;
 
     -webkit-transition: all 0.3s ease 0s;
 
@@ -329,7 +327,7 @@ body {
 
   font-weight: 600;
 
-  color: #f0b432;
+  color: #4e2b02;
 
   margin-top: -10px;
 
@@ -341,7 +339,7 @@ body {
 
   text-align: center;
 
-  border-color: transparent;
+  border-radius: 12px;
 
 }
 
@@ -387,7 +385,7 @@ body {
 
 .nav .sub-menu li:first-child {
 
-  border-top: 3px solid #f23b3b;
+  border-top: 3px solid #db8401;
 
 }
 
@@ -441,7 +439,7 @@ body {
 
   font-weight: 600;
 
-  color: #b88d00;
+  color: #fff;
 
 }
 
@@ -455,7 +453,7 @@ body {
 
   text-transform: uppercase;
 
-  color: #795200;
+  color: #fff;
 
   padding-bottom: 10px;
 
@@ -467,7 +465,7 @@ body {
 
 .right-caption p {
 
-  color: #795200!important;
+  color: #fff!important;
 
 }
 

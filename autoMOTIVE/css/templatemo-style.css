@@ -1719,22 +1719,23 @@ footer {
   height: 100vh;
 }
 
-#search-bar{
-  width: 5rem;
-}
-
-#category-filter{
-  width: 5rem;
-}
-
 .search-filter{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #4e2b02;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
   padding: 1rem;
 }
+#search-bar{
+  width: 15rem;
+}
+
+#category-filter{
+  width: 15rem;
+}
+
+
 
 
 

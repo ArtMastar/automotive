@@ -1736,7 +1736,10 @@ footer {
 }
 
 #blog-content{
-  width: 100vw;
+  color: #4e2b02;
+  padding: 2rem;
+  margin: 1rem;
+  display: block;
 }
 
 #trends{

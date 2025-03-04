@@ -11,6 +11,38 @@
     <link rel="stylesheet" href="css/templatemo-style.css">
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
+<style>
+    .slider-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .blog-item {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        background: #f8f8f8;
+        border-radius: 10px;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+</style>
 <body>
     <div class="header" id="top">
         <nav class="navbar navbar-inverse" role="navigation">
@@ -39,12 +71,28 @@
     <section id="blog-content">
         <h2 class="text-center">Automotive Blogs</h2>
         <div class="row">
-            <div class="section-content" id="trends">
+            <<div class="section-content" id="trends">
                 <h3>Trends</h3>
-                <div class="blog-item">
-                    <h4>Revving Up Performance: Simple Upgrades for Your Car</h4>
-                    <p>Every car has untapped potential. A few key performance upgrades can make a world of difference...</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                <div class="slider-container">
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <div class="slider" id="trends-slider">
+                        <div class="blog-item">
+                            <h4>Revving Up Performance: Simple Upgrades for Your Car</h4>
+                            <p>Every car has untapped potential. A few key performance upgrades can make a world of difference...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="blog-item">
+                            <h4>Top 5 Fuel-Efficient Cars of 2025</h4>
+                            <p>Looking to save on gas? These are the best fuel-efficient cars available right now...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="blog-item">
+                            <h4>Best Car Accessories for Long Road Trips</h4>
+                            <p>Make your road trip comfortable and safe with these must-have accessories...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
                 </div>
             </div>
             <div class="section-content" id="news">
@@ -64,7 +112,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div class="container">

@@ -1735,9 +1735,21 @@ footer {
   width: 15rem;
 }
 
+#blog-content{
+  width: 100vw;
+}
 
+#trends{
+  height: 40vh;
+}
 
+#news{
+  height: 50vh;
+}
 
+#faqs{
+  height: 100vh;
+}
 
 .main-footer {
 

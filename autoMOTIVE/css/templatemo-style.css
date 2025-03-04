@@ -1715,6 +1715,10 @@ footer {
 
 }
 
+#product-content{
+  height: 100vh;
+}
+
 
 
 .main-footer {

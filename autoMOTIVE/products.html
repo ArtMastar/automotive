@@ -1,4 +1,3 @@
-<!-- products.html -->
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -10,55 +9,83 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/wow-animate.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
     <div class="header" id="top">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a href="index.html" class="navbar-brand">autoMOTIVE</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="blogs.html">Blogs</a></li>
-                    <li><a href="login.html">Sign Up</a></li>
-                </ul>
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="login.html">Sign Up</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
+
     <div class="container">
-        <h2>Our Products</h2>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="product-item">
-                    <img src="images/engine.jpg" alt="Engine">
-                    <h3>Engine</h3>
-                    <p>High-performance engines for all vehicles.</p>
+        <h2 class="text-center">Automotive Spare Parts</h2>
+        <div class="search-filter">
+            <input type="text" id="search-bar" placeholder="Search products..." class="form-control">
+            <select id="category-filter" class="form-control">
+                <option value="all">All Categories</option>
+                <option value="engines">Engines</option>
+                <option value="tires">Tires</option>
+                <option value="suspensions">Suspensions</option>
+                <option value="brakes">Brakes</option>
+            </select>
+        </div>
+        <div class="row" id="product-list">
+            <div class="col-md-4 product-item" data-category="engines">
+                <div class="single-item">
+                    <img src="images/engine.jpg" alt="Engine" class="img-responsive">
+                    <h2>High-Performance Engine</h2>
+                    <p>Reliable engine for top-notch performance.</p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <img src="images/tires.jpg" alt="Tires">
-                    <h3>Tires</h3>
-                    <p>Durable tires with high road grip.</p>
+            <div class="col-md-4 product-item" data-category="tires">
+                <div class="single-item">
+                    <img src="images/tires.jpg" alt="Tires" class="img-responsive">
+                    <h2>All-Terrain Tires</h2>
+                    <p>Durable tires suitable for all surfaces.</p>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <img src="images/brakes.jpg" alt="Brakes">
-                    <h3>Brakes</h3>
-                    <p>Reliable braking systems for safety.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <img src="images/suspension.jpg" alt="Suspension">
-                    <h3>Suspension</h3>
-                    <p>Advanced suspension for smooth rides.</p>
+            <div class="col-md-4 product-item" data-category="brakes">
+                <div class="single-item">
+                    <img src="images/brakes.jpg" alt="Brakes" class="img-responsive">
+                    <h2>Premium Brake System</h2>
+                    <p>Ensures safety and reliable stopping power.</p>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('search-bar').addEventListener('input', function() {
+            let filter = this.value.toLowerCase();
+            document.querySelectorAll('.product-item').forEach(item => {
+                let text = item.innerText.toLowerCase();
+                item.style.display = text.includes(filter) ? 'block' : 'none';
+            });
+        });
+        document.getElementById('category-filter').addEventListener('change', function() {
+            let category = this.value;
+            document.querySelectorAll('.product-item').forEach(item => {
+                item.style.display = (category === 'all' || item.getAttribute('data-category') === category) ? 'block' : 'none';
+            });
+        });
+    </script>
 </body>
 </html>

@@ -1719,6 +1719,23 @@ footer {
   height: 100vh;
 }
 
+#search-bar{
+  width: 5rem;
+}
+
+#category-filter{
+  width: 5rem;
+}
+
+.search-filter{
+  display: flex;
+  flex-direction: column;
+  color: #4e2b02;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem;
+}
+
 
 
 .main-footer {
